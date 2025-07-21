@@ -7,6 +7,7 @@ contract FalconDecompressor {
     error TrailingBitsNotZero();
     error ValueTooLarge();
 
+
     function decompress(bytes calldata data, uint256 n) external payable returns (int256[] memory out) {
         uint256 bitLen = data.length * 8;
         if (bitLen < n * 9) revert InvalidLength();
