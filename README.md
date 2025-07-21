@@ -1,4 +1,4 @@
-# HashToPoint & FalconDecompressor (Falcon‑512 helper for Ethereum)
+# HashToPoint & FalconDecompressor (Falcon‑512)
 
 Этот репозиторий содержит два смарт‑контракта для поддержки верификации постквантовых подписей Falcon‑512 в сети Ethereum:
 
